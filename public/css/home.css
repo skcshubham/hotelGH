@@ -1,0 +1,444 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+body {
+	position: relative;
+}
+
+/* Landing Page */
+
+#landing-page {
+	border-bottom-left-radius: 45%;
+	border-bottom-right-radius: 45%;
+	background-color: black;
+	color: #ffffff;
+	height: 45vw;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#heading {
+	color: lightcoral;
+	margin-top: 7%;
+	text-align: center;
+	font-size: 5em;
+}
+
+#tag-line {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.nav-links {
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#booking-button {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.btn {
+	color: black;
+	background-color: white;
+	font-weight: 500;
+	border-radius: 20px;
+	padding: 5px 30px;
+}
+
+.see-more-button {
+	border: none;
+	color: white;
+	background-color: black;
+	font-weight: 400;
+	border-radius: 20px;
+	padding: 5px 30px;
+}
+
+#landing-image {
+	margin-top: 40px;
+	width: 600px;
+	height: 300px;
+	margin-left: 30%;
+}
+
+a:hover {
+	color: lightcoral;
+	text-decoration: none;
+}
+
+#brand-name {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 0 5%;
+}
+
+ul {
+	text-align: center;
+	padding-top: 5%;
+}
+
+/* Main Section */
+
+#secondary-content {
+	color: black;
+	margin-top: 200px;
+	margin-top: 30px;
+}
+
+#left-image2 {
+	margin-top: 10px;
+	width: 50%;
+	height: 55%;
+	padding-bottom: 20px;
+}
+
+#left-image1 {
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 40%;
+	height: 50%;
+	padding-bottom: 20px;
+}
+
+#right-image1 {
+	padding-right: 18px;
+	width: 480px;
+	height: 350px;
+}
+
+#right-image2 {
+	margin-top: 20px;
+	width: 430px;
+	height: 300px;
+}
+
+#sub-header-tag {
+	font-size: 48px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+p,
+.card-text {
+	font-weight: 300;
+}
+
+.card {
+	border: none;
+}
+
+.row,
+#secondary-header,
+#advertisement {
+	margin-top: 80px;
+	padding-bottom: 10px;
+}
+
+#location-img {
+	width: 33px;
+	height: 35px;
+}
+
+.card-img-top {
+	margin-left: 20px;
+}
+
+.card-title {
+	font-size: 20px;
+}
+
+#center {
+	margin: 50px 0px;
+	padding-left: 40%;
+}
+
+#push-below {
+	padding-top: 150px;
+}
+
+.phone-image {
+	width: 100%;
+	height: 50%;
+}
+
+#download {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.store-link {
+	width: 180px;
+	height: 80px;
+}
+
+/* Main Footer */
+
+#footer {
+	background-color: black;
+	color: white;
+	margin-top: 200px;
+	padding-bottom: 50px;
+}
+
+footer .main-footer {
+	padding: 20px 0;
+}
+footer ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+/* Copy Right Footer */
+.footer-copyright {
+	background: #222;
+	padding: 5px 0;
+}
+.footer-copyright .logo {
+	display: inherit;
+}
+.footer-copyright nav {
+	float: right;
+	margin-top: 5px;
+}
+.footer-copyright nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-copyright nav ul li {
+	border-left: 1px solid #505050;
+	display: inline-block;
+	line-height: 12px;
+	margin: 0;
+	padding: 0 8px;
+}
+
+/* Footer Top */
+.footer-top {
+	background: #252525;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #222;
+}
+
+/* Footer transparent */
+footer.transparent .footer-top,
+footer.transparent .main-footer {
+	background: transparent;
+}
+footer.transparent .footer-copyright {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Footer light */
+footer.light .footer-top {
+	background: #f9f9f9;
+}
+footer.light .main-footer {
+	background: #f9f9f9;
+}
+footer.light .footer-copyright {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Footer 4 */
+.footer- .logo {
+	display: inline-block;
+}
+
+.widget {
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.widget.widget-last {
+	margin-bottom: 0px;
+}
+.widget.no-box {
+	padding: 0;
+	background-color: transparent;
+	margin-bottom: 40px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+}
+.widget.subscribe p {
+	margin-bottom: 18px;
+}
+.widget li a {
+	color: #ff8d1e;
+}
+.widget li a:hover {
+	color: lightcoral;
+}
+.widget-title {
+	margin-bottom: 20px;
+}
+.widget-title span {
+	background: #839fad none repeat scroll 0 0;
+	display: block;
+	height: 1px;
+	margin-top: 25px;
+	position: relative;
+	width: 20%;
+}
+.widget-title span::after {
+	background: inherit;
+	content: "";
+	height: inherit;
+	position: absolute;
+	top: -4px;
+	width: 50%;
+}
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.widget .badge {
+	float: right;
+	background: #7f7f7f;
+}
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small {
+	color: #fff;
+}
+
+ul.social-footer2 {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+ul.social-footer2 li {
+	display: inline-block;
+	padding: 0;
+}
+ul.social-footer2 li a:hover {
+	background-color: #ff8d1e;
+}
+ul.social-footer2 li a {
+	display: block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+}
+.btn {
+	background-color: #ff8d1e;
+	color: #fff;
+}
+.btn:hover,
+.btn:focus,
+.btn.active {
+	background: lightcoral;
+	color: #fff;
+	-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 250ms ease-in-out 0s;
+	-moz-transition: all 250ms ease-in-out 0s;
+	-ms-transition: all 250ms ease-in-out 0s;
+	-o-transition: all 250ms ease-in-out 0s;
+	transition: all 250ms ease-in-out 0s;
+}
+
+#landing-image-container {
+	opacity: 1;
+}
+
+/* Responsive code */
+
+@media all and (max-width: 1080px) {
+	#landing-image-container {
+		opacity: 1;
+	}
+	#landing-image {
+		margin-top: 20px;
+		width: 50%;
+		height: 40%;
+		margin-left: 25%;
+	}
+}
+
+@media all and (max-width: 750px) {
+	#landing-image {
+		margin-top: 40px;
+		width: 60%;
+		height: 40%;
+		margin-left: 22%;
+		margin-top: 30px;
+	}
+
+	#landing-page {
+		border-bottom-left-radius: 35%;
+		border-bottom-right-radius: 35%;
+		height: 70vh;
+	}
+
+	#left-image1 {
+		width: 50%;
+		height: 50%;
+		margin-bottom: 0px;
+	}
+	#left-image2 {
+		width: 40%;
+		height: 50%;
+		opacity: 1;
+	}
+	#right-image1 {
+		margin-top: 20px;
+		width: 100%;
+		height: 50%;
+	}
+	#right-image2 {
+		width: 100%;
+		height: 50%;
+	}
+
+	.card-img-top {
+		margin-left: 0px;
+	}
+
+	#center {
+		padding-left: 30%;
+	}
+
+	#row {
+		margin-top: 10px;
+	}
+
+	li {
+		display: block;
+		padding-bottom: 2%;
+	}
+}
