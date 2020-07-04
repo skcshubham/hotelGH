@@ -55,10 +55,10 @@ body {
 	font-weight: 500;
 	border-radius: 20px;
 	padding: 5px 30px;
+	border: none;
 }
 
 .see-more-button {
-	border: none;
 	color: white;
 	background-color: black;
 	font-weight: 400;
@@ -138,10 +138,6 @@ ul {
 p,
 .card-text {
 	font-weight: 300;
-}
-
-.card {
-	border: none;
 }
 
 .row,
